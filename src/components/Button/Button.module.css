@@ -1,0 +1,31 @@
+.primary {
+  color: rgb(5, 18, 29);
+  background-color: rgb(194, 194, 253);
+  width: 105px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-top: 1px solid rgb(68, 68, 68);
+  border-right: 1px solid rgb(68, 68, 68);
+  border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+.secondary {
+  color: blue;
+  background-color: white;
+
+  border: 1px solid blue;
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+}
+
+.text {
+  color: blue;
+  background: none;
+  border: none;
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+}

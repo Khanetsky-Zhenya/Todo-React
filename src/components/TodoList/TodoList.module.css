@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  width: 80%;
+  text-align: center;
+}
+.todoAll {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+.deleteAll {
+  width: 100px;
+  height: 30px;
+  margin-right: 3px;
+  background-color: rgb(238, 160, 212);
+  border: none;
+}
+.doneAll {
+  width: 100px;
+  height: 30px;
+  margin-left: 3px;
+  background-color: rgb(163, 197, 219);
+  border: none;
+}
+.button_top {
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+}
+.buttonToggle {
+  width: 45px;
+  height: 35px;
+}
+.buttonDelete {
+  font-weight: 800;
+  padding: 7px;
+  cursor: default;
+}
+.todoCounter {
+  width: 100px;
+  height: 30px;
+  margin-left: 6px;
+
+  text-align: center;
+  background-color: rgb(160, 238, 221);
+  border: none;
+}
