@@ -3,7 +3,7 @@
   padding: 0;
 }
 .wrap {
-  width: 80%;
+  width: 100;
   text-align: center;
 }
 .todoAll {
@@ -11,6 +11,7 @@
   text-align: left;
   justify-content: center;
 }
+
 .deleteAll {
   width: 100px;
   height: 30px;
@@ -18,12 +19,18 @@
   background-color: rgb(238, 160, 212);
   border: none;
 }
+.deleteAll:hover {
+  background-color: rgb(238, 122, 199);
+}
 .doneAll {
   width: 100px;
   height: 30px;
   margin-left: 3px;
   background-color: rgb(163, 197, 219);
   border: none;
+}
+.doneAll:hover {
+  background-color: rgb(107, 172, 216);
 }
 .button_top {
   justify-content: center;
@@ -34,11 +41,22 @@
   width: 45px;
   height: 35px;
 }
+.buttonToggle:hover {
+font-size: 16px;
+border: 2px solid rgb(66, 66, 66);
+}
 .buttonDelete {
   font-weight: 800;
   padding: 7px;
   cursor: default;
 }
+.buttonDelete:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+
 .todoCounter {
   width: 100px;
   height: 30px;
